@@ -1,0 +1,15 @@
+.animate-border {
+  animation: border 2s linear infinite;
+}
+
+.shadow-shape {
+  box-shadow: var(--shadow-shape);
+}
+
+.shadow-shape-content {
+  box-shadow: var(--shadow-shape-content);
+}
+
+.text-xxs {
+  font-size: var(--font-size-xxs);
+}

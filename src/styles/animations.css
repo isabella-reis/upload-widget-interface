@@ -1,0 +1,19 @@
+/* 
+  Animação de borda giratória customizada usada no UploadWidget.
+  Usa a propriedade registrada "--border-angle" com o @property.
+
+  Lembrar de usar a classe "animate-border" no componente.
+*/
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+  }
+  
+  @keyframes border {
+    to {
+      --border-angle: 360deg;
+    }
+  }
+  
