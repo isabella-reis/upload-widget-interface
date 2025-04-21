@@ -29,7 +29,7 @@ export function compressImage({
   ];
 
   if (!allowedFileTypes.includes(file.type)) {
-    throw new Error("Image format not supported.");
+    throw new Error("Image format not supported");
   }
 
   return new Promise<File>((resolve, reject) => {

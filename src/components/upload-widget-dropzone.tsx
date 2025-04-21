@@ -18,7 +18,6 @@ export function UploadWidgetDropzone() {
       addUploads(acceptedFiles);
     },
   });
-
   return (
     <motion.div
       className="px-3 flex flex-col gap-3"
@@ -54,7 +53,7 @@ export function UploadWidgetDropzone() {
         )}
       </div>
 
-      <span className="text-xs text-zinc-400">
+      <span className="text-xxs text-zinc-400">
         Only PNG and JPG files are supported.
       </span>
     </motion.div>
